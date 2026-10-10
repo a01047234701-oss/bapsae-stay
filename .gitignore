@@ -1,0 +1,53 @@
+# Dependencies and generated files
+node_modules/
+dist/
+build/
+coverage/
+.venv/
+__pycache__/
+*.pyc
+.wrangler/
+.cache/
+.next/
+.vite/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*.json
+service-account*.json
+.npmrc
+.netrc
+
+# Operational data, exports, and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.dump
+*.backup
+*.bak
+*.csv
+*.xls
+*.xlsx
+backups/
+exports/
+customer-data/
+production-data/
+
+# Logs and machine-specific files
+*.log
+logs/
+.DS_Store
+Thumbs.db
